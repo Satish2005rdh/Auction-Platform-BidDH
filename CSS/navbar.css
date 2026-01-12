@@ -1,0 +1,148 @@
+.navbar {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  background: rgba(30, 41, 59, 0.95) !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: none !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  font-weight: 800 !important;
+  font-size: 2rem !important;
+  color: var(--white) !important;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.5px;
+  transition: all 0.3s ease;
+  transform: skew(-25deg);
+}
+
+.navbar-brand:hover {
+  transform: scale(1.05);
+}
+
+.navbar-nav {
+  margin: 0;
+}
+
+.navbar-nav>li {
+  list-style: none;
+}
+
+.navbar-nav>li>a {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-weight: 500;
+  font-size: 1.7rem;
+  padding: 0.75rem 1.25rem !important;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  align-items: center;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.navbar-nav>li>a:hover {
+  background: rgba(99, 102, 241, 0.2) !important;
+  color: rgba(255, 255, 255, 1) !important;
+  transform: translateY(-2px);
+}
+
+.navbar-nav>li>a:active {
+  transform: translateY(0);
+}
+
+.dropdown-menu {
+  background-color: white;
+  border: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.dropdown-menu>li>a {
+  color: var(--dark);
+  padding: 10px 20px;
+  transition: all 0.2s;
+}
+
+.dropdown-menu>li>a:hover {
+  background-color: var(--primary);
+  color: white !important;
+}
+
+.navbar-form .form-control {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: white;
+}
+
+.navbar-form .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-form .btn-default {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+}
+
+/* Navbar search container */
+.navbar-form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Input group styling */
+.navbar-form .input-group {
+  display: flex;
+  align-items: center;
+  background: #374151;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Search input */
+.navbar-form .form-control {
+  background: transparent;
+  border: none;
+  color: #fff;
+  height: 42px;
+  padding: 10px 15px;
+  box-shadow: none;
+}
+
+.navbar-form .form-control::placeholder {
+  color: #cbd5e1;
+}
+
+/* Remove bootstrap focus border */
+.navbar-form .form-control:focus {
+  box-shadow: none;
+}
+
+/* Button container */
+.navbar-form .input-group-btn .btn {
+  background: #4b5563;
+  border: none;
+  height: 42px;
+  padding: 0 16px;
+  color: #fff;
+}
+
+/* Hover effect */
+.navbar-form .input-group-btn .btn:hover {
+  background: #6b7280;
+}
+
+/* Search icon color */
+.navbar-form .glyphicon {
+  font-size: 16px;
+  color: #fff;
+}

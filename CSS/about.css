@@ -1,0 +1,91 @@
+:root {
+  --primary: #4361ee;
+  --primary-dark: #3a56d4;
+  --secondary: #3f37c9;
+  --accent: #4cc9f0;
+  --dark: #1a1a2e;
+  --light: #f8f9fa;
+  --success: #4bb543;
+  --danger: #ff3333;
+  --gray: #6c757d;
+  --light-gray: #e9ecef;
+}
+
+/* ===== BASE ===== */
+body {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+  color: #212529;
+  line-height: 1.6;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* ===== MODAL ===== */
+.modal-content {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+  width: 80%;
+}
+
+.modal-header {
+  background: linear-gradient(to right, var(--primary), var(--secondary));
+  color: #fff;
+  padding: 16px 20px;
+}
+
+.modal-title {
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.modal-body {
+  background: #fff;
+  color: var(--dark);
+  padding: 22px 24px;
+  line-height: 1.7;
+  font-size: 2rem;
+  width: 80%;
+}
+
+.modal-footer {
+  background: var(--light-gray);
+  padding: 12px 18px;
+}
+
+.close {
+  color: #fff;
+  opacity: 0.85;
+  font-size: 1.3rem;
+}
+
+/* ===== BUTTON ===== */
+.btn-default {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 7px 18px;
+  font-size: 1.3rem;
+  transition: all 0.3s ease;
+}
+
+
+.about-container {
+  max-width: 1100px;
+  margin: 32px auto;
+  padding: 0 18px;
+}
+
+/* ===== ABOUT CARD ===== */
+.about {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.07);
+  padding: 32px;
+  margin-top: 24px;
+}
+
+/* headings + animation same as before */
